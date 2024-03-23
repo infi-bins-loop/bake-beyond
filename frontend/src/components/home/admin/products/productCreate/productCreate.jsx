@@ -18,7 +18,7 @@ const BlockEnclosure = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  border: 0.0625rem solid ##db5275;
+  border: 0.0625rem solid #db5275;
   padding: 1.5rem;
   margin: 1.25rem;
   min-width: 80rem;
@@ -145,10 +145,10 @@ export default function ProductCreate() {
           </FormSelect>
         </FormGroup>
         <ButtonGroup style={{ gap: "2rem" }}>
-          <Button type="reset" style={{ backgroundColor: "white" }}>
+          <Button type="reset" style={{ backgroundColor: "white", border: "0.0625rem solid #db5275"}}>
             Clear
           </Button>
-          <Button onClick={sendProduct}>Submit</Button>
+          <Button onClick={sendProduct} style={{ backgroundColor: "#db5275", border: "0.0625rem solid #db5275"}}>Submit</Button>
         </ButtonGroup>
       </Form>
     </BlockEnclosure>

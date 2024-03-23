@@ -1,20 +1,7 @@
-# Pâtisserie
+# Bake & Beyond
 
-- This project is made for the distribution of Bakery Products.
+- A Confectionary Web Application 
 - Technologies used are MERN Stack, JWT Auth, Rest API, etc
-
-> **Warning:**
-> The Images and Banners needs to be created and feeded before running the program
-
-#### Minimum Requirements:
-
-1. CPU: 4core
-2. RAM: 4GB
-3. Storage: HDD
-
-> Project can run on both Windows and Linux Servers
-
----
 
 # Instructions
 
@@ -48,13 +35,7 @@ REACT_APP_GST_PERCENT = 18
 REACT_APP_SHIPPING_CHARGE=50
 ```
 
-6. For banners make a "public/banners" folder inside frontend and add 3 images named `1.png`, `2.png` & `3.png`
-
-7. Place a Logo in the public folder named `logo.png`
-
-8. Create a `admin_emails.json` in backend and add an email to make Admin of.
-
-9. Now run the backend by going to terminal and typing
+6. Now run the backend by going to terminal and typing
 
 ```
 npm run server
@@ -65,25 +46,3 @@ And for frontend by typing
 ```
 npm run start
 ```
-
-10. Sign up with the admin email and add Products.
-
----
-
-## Screenshots
-
-### Home
-
-![Home Screenshot](home.png)
-
-### Menu
-
-![Menu Screenshot](menu.png)
-
-### Profile
-
-![Profile Screenshot](profile.png)
-
-### Cart
-
-![Cart Screenshot](cart.png)
