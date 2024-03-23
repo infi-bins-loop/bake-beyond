@@ -26,37 +26,36 @@ export default function AdminNavigationBar() {
   return (
     <Navbar
       variant="dark"
-      bg="primary"
       expand="md"
-      style={{ minHeight: "10vh", margin: "0rem" }}
+      style={{ minHeight: "10vh", margin: "0rem", backgroundColor: "#db5275" }}
       collapseOnSelect
     >
       <Container fluid style={{ justifyContent: "space-between" }}>
         <Navbar.Brand href="#">
           <LogoImage src={process.env.PUBLIC_URL + "/logo.png"} />
-          Pâtisserie
+          Bake & Beyond
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse style={{ justifyContent: "flex-end" }}>
           <NavWrapper>
             <Nav style={{ gap: "1.5rem" }}>
-              <NavLink as={Link} to="/">
+              <NavLink as={Link} to="/" style={{color: "white"}}>
                 Home
               </NavLink>
               <div className="vr" />
-              <NavLink as={Link} to="/admin/products">
+              <NavLink as={Link} to="/admin/products" style={{color: "white"}}>
                 Products
               </NavLink>
-              <NavLink as={Link} to="/admin/coupons">
+              <NavLink as={Link} to="/admin/coupons" style={{color: "white"}}>
                 Coupons
               </NavLink>
-              <NavLink as={Link} to="/admin/users">
+              <NavLink as={Link} to="/admin/users" style={{color: "white"}}>
                 Users
               </NavLink>
-              <NavLink as={Link} to="/admin/orders">
+              <NavLink as={Link} to="/admin/orders" style={{color: "white"}}>
                 Orders
               </NavLink>
-              <NavLink as={Link} to="/admin/reviews">
+              <NavLink as={Link} to="/admin/reviews" style={{color: "white"}}>
                 Reviews
               </NavLink>
             </Nav>

@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 3120;
 // );
 
 // * For Serverless hosting
+mongoose.set('strictQuery', false);
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(process.env.MONGO_DB_URI);

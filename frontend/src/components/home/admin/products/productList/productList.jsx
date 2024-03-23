@@ -96,7 +96,7 @@ export default function ProductList() {
             ))}
           </tbody>
         </Table>
-        <Button varient="primary" as={Link} to={`/admin/products/create`}>
+        <Button as={Link} to={`/admin/products/create`} style={{backgroundColor: "#db5275"}}>
           Create Product
         </Button>
       </BlockEnclosure>

@@ -143,7 +143,7 @@ const PaymentGateway = () => {
 
 const CopyRight = () => {
   return (
-    <TextWrapper>CopyRight @2022 Pâtisserie. All rights reserved</TextWrapper>
+    <TextWrapper>CopyRight @2024 Bake & Beyond. All rights reserved</TextWrapper>
   );
 };
 

@@ -38,7 +38,7 @@ export default function About() {
       </div>
       <Wrapper imagePosRight>
         <TextWrapper>
-          <h3>WELCOME TO THE WORLD OF PATISSERIE</h3>
+          <h3>WELCOME TO THE WORLD OF Bake & Beyond</h3>
           <p>
             Here the perfect balance strikes that perfect chord. Lifting lives,
             inspiring lifestyles, spreading joy. For us it’s always been about
@@ -56,7 +56,7 @@ export default function About() {
         <TextWrapper>
           <h3>OUR BELIEFS</h3>
           <p>
-            In Patisserie, we think to innovate and improving ourself is the
+            In Bake & Beyond, we think to innovate and improving ourself is the
             main goal in life. Yes we mean baking. Coming up with new recipes
             which has it’s own stories and adventure is the greatest moment in
             out life. We always like to make fresh new products so that you can

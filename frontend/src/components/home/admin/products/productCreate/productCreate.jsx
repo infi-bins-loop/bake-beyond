@@ -18,11 +18,11 @@ const BlockEnclosure = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  border: 0.0625rem solid #c0c0c0;
+  border: 0.0625rem solid ##db5275;
   padding: 1.5rem;
   margin: 1.25rem;
   min-width: 80rem;
-  background-color: var(--bs-white);
+  background-color: "#db5275";
 `;
 
 export default function ProductCreate() {

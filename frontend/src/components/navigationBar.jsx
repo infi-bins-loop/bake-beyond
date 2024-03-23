@@ -33,40 +33,38 @@ export default function NavigationBar() {
   return (
     <Navbar
       variant="dark"
-      bg="primary"
       expand="md"
-      style={{ minHeight: "10vh", margin: "0rem" }}
-      collapseOnSelect
+      style={{ minHeight: "10vh", margin: "0rem", backgroundColor: "#db5275"}}
     >
       <Container fluid style={{ justifyContent: "space-between" }}>
         <Navbar.Brand href="#">
           <LogoImage src={process.env.PUBLIC_URL + "/logo.png"} />
-          Pâtisserie
+          Bake & Beyond
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse style={{ justifyContent: "flex-end" }}>
           <NavWrapper>
-            <Nav style={{ gap: "1.5rem" }}>
-              <NavLink as={Link} to="/">
+            <Nav style={{ gap: "1.5rem"}}>
+              <NavLink as={Link} to="/" style={{color: "white"}}>
                 Home
               </NavLink>
-              <NavLink as={Link} to="/menu">
+              <NavLink as={Link} to="/menu" style={{color: "white"}}>
                 Menu
               </NavLink>
-              <NavLink as={Link} to="/about">
+              <NavLink as={Link} to="/about" style={{color: "white"}}>
                 About
               </NavLink>
-              <NavLink as={Link} to="/cart">
+              <NavLink as={Link} to="/cart" style={{color: "white"}}>
                 <Cart />
                 Cart
               </NavLink>
               {userName ? (
-                <NavLink as={Link} to="/profile">
+                <NavLink as={Link} to="/profile" style={{color: "white"}}>
                   <PersonCircle />
                   Profile
                 </NavLink>
               ) : (
-                <NavLink as={Link} to="/login">
+                <NavLink as={Link} to="/login" style={{color: "white"}}>
                   <PersonDown />
                   Login
                 </NavLink>
