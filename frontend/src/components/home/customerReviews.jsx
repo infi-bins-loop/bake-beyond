@@ -37,7 +37,7 @@ const CardWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
+    background-color: #ffdde5;
     :hover {
       transition: 0.5s;
       transform: scale(1.1);
@@ -49,7 +49,7 @@ const CardWrapper = styled.div`
 `;
 
 const CarouselWrapper = styled.div`
-  background-color: #ffd07a;
+  background-color: #56091f;
   .react-multi-carousel-list {
     padding-top: 40px;
     padding-bottom: 50px;
@@ -66,7 +66,7 @@ const Title = styled.h1`
   display: flex;
   justify-content: center;
   margin: 2rem;
-  color: orange;
+  color: #56091f;
   font-family: Pacifico;
   font-size: 5rem;
 `;

@@ -5,11 +5,11 @@ const BlockEnclosure = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  border: 0.0625rem solid #c0c0c0;
+  border: 0.0625rem solid #ffdde6;
   padding: 1.5rem;
   margin: 1.25rem;
   min-width: 80rem;
-  background-color: #e1e1e1;
+  background-color: #ffdde6;
 `;
 
 export default function NewsLetterList() {
