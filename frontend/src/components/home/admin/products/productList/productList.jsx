@@ -13,7 +13,8 @@ const BlockEnclosure = styled.div`
   border: 0.0625rem solid #c0c0c0;
   padding: 1.5rem;
   margin: 1.25rem;
-  min-width: 80rem;
+  min-width: 100%;
+  max-width: 80rem;
   background-color: var(--bs-white);
 `;
 
@@ -74,7 +75,10 @@ export default function ProductList() {
                     className="view-btn"
                     as={Link}
                     to={`/admin/products/view/${product.id}`}
-                    style={{backgroundColor: "#f9aabb", border: "0.0625rem solid #f9aabb"}}
+                    style={{
+                      backgroundColor: "#f9aabb",
+                      border: "0.0625rem solid #f9aabb",
+                    }}
                   >
                     <Eye />
                   </Button>
@@ -82,7 +86,10 @@ export default function ProductList() {
                     className="edit-btn"
                     as={Link}
                     to={`/admin/products/edit/${product.id}`}
-                    style={{backgroundColor: "#f9aabb", border: "0.0625rem solid #f9aabb"}}
+                    style={{
+                      backgroundColor: "#f9aabb",
+                      border: "0.0625rem solid #f9aabb",
+                    }}
                   >
                     <Pencil />
                   </Button>
@@ -90,7 +97,10 @@ export default function ProductList() {
                     className="delete-btn"
                     as={Link}
                     onClick={() => showDeletePopUp(product)}
-                    style={{backgroundColor: "#f9aabb", border: "0.0625rem solid #f9aabb"}}
+                    style={{
+                      backgroundColor: "#f9aabb",
+                      border: "0.0625rem solid #f9aabb",
+                    }}
                   >
                     <Trash />
                   </Button>
@@ -99,7 +109,14 @@ export default function ProductList() {
             ))}
           </tbody>
         </Table>
-        <Button as={Link} to={`/admin/products/create`} style={{backgroundColor: "#db5275", border: "0.0625rem solid #db5275"}}>
+        <Button
+          as={Link}
+          to={`/admin/products/create`}
+          style={{
+            backgroundColor: "#db5275",
+            border: "0.0625rem solid #db5275",
+          }}
+        >
           Create Product
         </Button>
       </BlockEnclosure>

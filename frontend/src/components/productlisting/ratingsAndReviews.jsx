@@ -88,7 +88,7 @@ export default function RatingsAndReviews({
                   reviews,
                   ratingBarColours.length - inx
                 )}
-                style={{ minWidth: "35rem" }}
+                style={{ minWidth: "25rem" }}
               />
               <p>
                 {filterReviewByRating(reviews, ratingBarColours.length - inx)}

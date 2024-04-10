@@ -38,7 +38,7 @@ const Container = styled.div`
   margin: 4rem 0rem;
   h1 {
     margin-bottom: 1rem;
-    font-family: Pacifico;
+    font-family: Grandstander;
     color: var(--bs-secondary);
   }
   h4 {
@@ -60,7 +60,7 @@ const CardWrapper = styled.div`
     transition: 0.5s;
     transform: scale(1.3);
     z-index: 10;
-    border: 1px solid orange;
+    border: 1px solid white;
   }
   .card-title {
     margin-top: 10px;
@@ -68,9 +68,9 @@ const CardWrapper = styled.div`
   }
   button {
     width: 60%;
-    background-color: orange;
+    background-color: pink;
     color: white;
-    border-color: orange;
+    border-color: white;
     align-self: center;
     margin: 1rem 0rem;
     :hover {

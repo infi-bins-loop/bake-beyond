@@ -40,8 +40,8 @@ const CardWrapper = styled.div`
       height: 75%;
     }
     .btn {
-      background-color: orange;
-      border-color: orange;
+      background-color: pink;
+      border-color: white;
       min-width: 60%;
       margin: 1rem 0rem;
     }
@@ -69,7 +69,7 @@ const CarouselWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: 4rem;
-  background-color: #ffd07a;
+  background-color: #f9aabb;
   border-radius: 0.5rem;
   border: 0.0125rem solid var(--bs-gray-500);
   .react-multi-carousel-list {

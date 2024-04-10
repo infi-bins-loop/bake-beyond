@@ -73,7 +73,7 @@ const ContactUs = () => {
       <h4>Mobile Number:</h4>
       <p>+9789-132424</p>
       <h4>Address:</h4>
-      <p>689 Young Avenue Rosemount, MN 55068</p>
+      <p>VIT Vellore , Tamil Nadu</p>
     </DetailsWrapper>
   );
 };
@@ -143,7 +143,9 @@ const PaymentGateway = () => {
 
 const CopyRight = () => {
   return (
-    <TextWrapper>CopyRight @2024 Bake & Beyond. All rights reserved</TextWrapper>
+    <TextWrapper>
+      CopyRight @2024 Bake & Beyond. All rights reserved
+    </TextWrapper>
   );
 };
 

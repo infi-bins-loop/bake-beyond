@@ -37,7 +37,7 @@ const CardWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffdde5;
+    background-color: #db5275;
     :hover {
       transition: 0.5s;
       transform: scale(1.1);
@@ -67,7 +67,7 @@ const Title = styled.h1`
   justify-content: center;
   margin: 2rem;
   color: #56091f;
-  font-family: Pacifico;
+  font-family: Grandstander;
   font-size: 5rem;
 `;
 

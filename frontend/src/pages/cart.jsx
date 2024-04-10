@@ -190,7 +190,7 @@ export default function Cart() {
         <Button variant="none" onClick={() => navigate(-1)}>
           <ArrowLeft size={"3rem"} />
         </Button>
-        <h1 style={{ fontFamily: "Pacifico" }}>SHOPPING CART</h1>
+        <h1 style={{ fontFamily: "Grandstander" }}>SHOPPING CART</h1>
         <Cart2 size={"3rem"} />
       </Row>
       <Container>
