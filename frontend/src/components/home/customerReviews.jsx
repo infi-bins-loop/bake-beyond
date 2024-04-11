@@ -32,7 +32,7 @@ const Container = styled.section`
 const CardWrapper = styled.div`
   .card {
     height: 300px;
-    width: 500px;
+    width: 300px;
     border: 1px black;
     display: flex;
     justify-content: space-between;

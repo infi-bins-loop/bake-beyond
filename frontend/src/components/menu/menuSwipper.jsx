@@ -24,30 +24,43 @@ async function getAllProducts() {
 }
 
 const CardWrapper = styled.div`
-  .card {
-    height: 28rem;
-    width: 23rem;
-    display: flex;
-    border: 0.0625rem solid var(--bs-gray-500);
-
-    align-items: center;
-    :hover {
-      transition: 0.5s;
-      transform: scale(1.1);
-    }
-    img {
-      object-fit: cover;
-      height: 75%;
-    }
-    .btn {
-      background-color: pink;
-      border-color: white;
-      min-width: 60%;
-      margin: 1rem 0rem;
-    }
+  .CardWrapper {
   }
+
+  .card {
+    width: 15rem; /* Reduce card width */
+    height: 20rem; /* Reduce card height */
+    border: 0.0625rem solid var(--bs-gray-500);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align elements vertically */
+  }
+
+  .card:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .card img {
+    object-fit: cover;
+    height: 60%; /* Reduce image height */
+    width: 100%;
+  }
+
   .card-title {
     margin-top: 5px;
+    text-align: center;
+  }
+
+  .card-text {
+    text-align: center; /* Center align price */
+  }
+
+  .btn {
+    background-color: pink;
+    border-color: white;
+    min-width: 60%;
+    margin: auto;
   }
 `;
 

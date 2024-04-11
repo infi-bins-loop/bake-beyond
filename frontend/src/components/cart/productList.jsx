@@ -6,7 +6,7 @@ const Container = styled.div`
   display: grid;
   gap: 1rem;
   margin: 1rem;
-  padding: 6rem 8rem;
+  padding: 3rem 3rem;
   background-color: var(--bs-white);
   border: 0.0625rem solid var(--bs-gray-400);
   border-radius: 0.5rem;

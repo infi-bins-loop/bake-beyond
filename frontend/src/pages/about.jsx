@@ -49,10 +49,16 @@ export default function About() {
             balance. That is meant to translate into your life.
           </p>
         </TextWrapper>
-        <Image src="https://source.unsplash.com/random/640x440/?restaurants" />
+        <Image
+          src="https://images.unsplash.com/photo-1487377330423-12f2f3e6d27a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          style={{ width: "640px", height: "400px" }} // Adjust width and height as needed
+        />
       </Wrapper>
       <Wrapper imagePosLeft>
-        <Image src="https://source.unsplash.com/random/640x440/?restaurants" />
+        <Image
+          src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          style={{ width: "640px", height: "400px" }} // Adjust width and height as needed
+        />
         <TextWrapper>
           <h3>OUR BELIEFS</h3>
           <p>
@@ -80,7 +86,10 @@ export default function About() {
             baking.
           </p>
         </TextWrapper>
-        <Image src="https://source.unsplash.com/random/640x440/?restaurants" />
+        <Image
+          src="https://images.unsplash.com/photo-1556740772-1a741367b93e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          style={{ width: "640px", height: "400px" }} // Adjust width and height as needed
+        />
       </Wrapper>
     </Container>
   );
