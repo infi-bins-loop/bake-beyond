@@ -21,7 +21,8 @@ const BlockEnclosure = styled.div`
   border: 0.0625rem solid #db5275;
   padding: 1.5rem;
   margin: 1.25rem;
-  min-width: 80rem;
+  min-width: 100%;
+  max-width: 80rem;
   background-color: "#db5275";
 `;
 
@@ -145,10 +146,24 @@ export default function ProductCreate() {
           </FormSelect>
         </FormGroup>
         <ButtonGroup style={{ gap: "2rem" }}>
-          <Button type="reset" style={{ backgroundColor: "white", border: "0.0625rem solid #db5275"}}>
+          <Button
+            type="reset"
+            style={{
+              backgroundColor: "white",
+              border: "0.0625rem solid #db5275",
+            }}
+          >
             Clear
           </Button>
-          <Button onClick={sendProduct} style={{ backgroundColor: "#db5275", border: "0.0625rem solid #db5275"}}>Submit</Button>
+          <Button
+            onClick={sendProduct}
+            style={{
+              backgroundColor: "#db5275",
+              border: "0.0625rem solid #db5275",
+            }}
+          >
+            Submit
+          </Button>
         </ButtonGroup>
       </Form>
     </BlockEnclosure>

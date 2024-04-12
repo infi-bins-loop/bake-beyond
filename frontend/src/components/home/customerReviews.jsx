@@ -32,12 +32,12 @@ const Container = styled.section`
 const CardWrapper = styled.div`
   .card {
     height: 300px;
-    width: 500px;
+    width: 300px;
     border: 1px black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffdde5;
+    background-color: #db5275;
     :hover {
       transition: 0.5s;
       transform: scale(1.1);
@@ -67,7 +67,7 @@ const Title = styled.h1`
   justify-content: center;
   margin: 2rem;
   color: #56091f;
-  font-family: Pacifico;
+  font-family: Grandstander;
   font-size: 5rem;
 `;
 

@@ -102,8 +102,8 @@ export default function ProductDetails({ product, unhideModal }) {
           src={product.image}
           style={{
             objectFit: "cover",
-            width: "40rem",
-            height: "30rem",
+            width: "30rem",
+            height: "34rem",
             border: "0.125rem solid var(--bs-gray-500)",
           }}
         />

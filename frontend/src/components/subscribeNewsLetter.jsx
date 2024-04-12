@@ -26,7 +26,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   align-items: center;
   padding: 5rem 0.75rem;
-  background-color: #a3bb98;
+  background-color: #56091f;
 
   form {
     background-color: white;
@@ -51,7 +51,7 @@ const TextWrapper = styled.div`
   align-items: center;
   color: #f1f1f1;
   h1 {
-    font-family: Pacifico;
+    font-family: Grandstander;
     margin: 1rem 0rem;
   }
   p {

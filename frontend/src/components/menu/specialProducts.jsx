@@ -38,7 +38,7 @@ const Container = styled.div`
   margin: 4rem 0rem;
   h1 {
     margin-bottom: 1rem;
-    font-family: Pacifico;
+    font-family: Grandstander;
     color: var(--bs-secondary);
   }
   h4 {
@@ -47,35 +47,42 @@ const Container = styled.div`
 `;
 
 const CardWrapper = styled.div`
-  img {
-    object-fit: cover;
-    height: 75%;
-  }
   .card {
+    width: 300px;
     height: 400px;
-    margin-right: 50px;
+    margin-right: 20px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
   }
+
   .card:hover {
     transition: 0.5s;
-    transform: scale(1.3);
+    transform: scale(1.05);
     z-index: 10;
-    border: 1px solid orange;
+    border: 1px solid white;
   }
+
+  .card img {
+    object-fit: cover;
+    height: 60%; /* Reduce image height */
+    width: 100%;
+  }
+
   .card-title {
     margin-top: 10px;
     align-self: center;
   }
+
   button {
     width: 60%;
-    background-color: orange;
+    background-color: pink;
     color: white;
-    border-color: orange;
+    border-color: white;
     align-self: center;
     margin: 1rem 0rem;
-    :hover {
-      color: white;
-    }
   }
 `;
 

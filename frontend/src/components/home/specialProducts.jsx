@@ -36,10 +36,10 @@ const TextWrapper = styled.div`
   justify-content: center;
   color: #ffffff;
   padding: 4rem 2rem;
-  background-color: #fbc252;
+  background-color: #db5275;
   h1 {
     margin: 1.2rem 0.25rem;
-    font-family: Pacifico;
+    font-family: Grandstander;
   }
   h4 {
     margin: 1rem 1rem;
@@ -48,16 +48,25 @@ const TextWrapper = styled.div`
 
 const CardWrapper = styled.div`
   .card {
-    max-height: 25rem;
-    max-width: 25rem;
-    margin: 1.5rem 3.2rem;
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
   }
   .card:hover {
-    transition: 0.5s;
-    transform: scale(1.3);
+    transform: scale(1.05); /* Increase scale on hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
     z-index: 10;
-    border: 1px solid orange;
+    border: 1px solid pink;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 15rem; /* Adjust the height of the image */
+    object-fit: cover; /* Maintain aspect ratio */
   }
   .card-title {
     margin: 0.75rem 0rem;
@@ -65,9 +74,9 @@ const CardWrapper = styled.div`
   }
   button {
     width: 60%;
-    background-color: orange;
+    background-color: pink;
     color: white;
-    border-color: orange;
+    border-color: white;
     align-self: center;
     margin: 1rem 0rem;
     :hover {
